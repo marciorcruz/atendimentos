@@ -9,7 +9,7 @@ class Database{
       
       conn.query(clientesstart, function (error, results, fields){
           if(error) return console.log(error);
-          console.log('Criou a tabelea de clientes');
+          console.log('Clientes OK');
       });
     }
 }
